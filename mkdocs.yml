@@ -51,7 +51,8 @@ extra:
 nav:
   - 博客: 
     - blog/index.md
-    - Github Pages: blog/使用GitHub Pages 搭建 MkDocs.md
+    - Github Pages: 
+       - blog/使用GitHub Pages 搭建 MkDocs.md
   - 关于:
     - about/index.md
 
