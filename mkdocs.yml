@@ -1,6 +1,6 @@
 site_name: My Docs
-theme: 
-  name: mkdocs
+theme:
+  name: material
   palette:
     scheme: slate
     primary: indigo
@@ -18,3 +18,5 @@ theme:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+
+
