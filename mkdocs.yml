@@ -55,6 +55,8 @@ nav:
        - blog/使用GitHub Pages 搭建 MkDocs.md
   - 关于:
     - about/index.md
+    - 导航页: 
+       - about/link.md
 
 # [Extensions]
 plugins:
