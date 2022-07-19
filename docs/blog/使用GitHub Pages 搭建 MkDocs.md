@@ -60,4 +60,5 @@ jobs: # 工作流的具体内容
 
 在settings/pages页面设置
 
-![image-20220719231640220](imgs\62d6cae5b9152.png)
+![image-20220719233119833](assets/image-20220719233119833.png)
+
