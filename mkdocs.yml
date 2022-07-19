@@ -1,6 +1,6 @@
 site_name: My Docs
 theme: 
-  name: default
+  name: mkdocs
   palette:
     scheme: slate
     primary: indigo
