@@ -81,7 +81,7 @@ sudo rm -rf /var/lib/containerd
 
   启动docker desktop
 
-  ![](http://192.168.192.12:9080/i/2022/07/15/62d0fee747bbe.png)
+  ![](assets/62d0fee747bbe.png)
 
   
 
