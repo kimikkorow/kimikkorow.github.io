@@ -55,6 +55,9 @@ nav:
        - blog/使用GitHub Pages 搭建 MkDocs.md
     - Docker:
        - blog/Docker快速入土（2022.07.15）.md
+    - Linux:
+       - blog/Linux Tar 命令使用.md
+       - blog/Linux Screen 命令使用.md
   - 关于:
     - about/index.md
     - 导航页: 
