@@ -1,5 +1,5 @@
-# linux screen 命令详解
-# [linux screen 命令详解](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
+# Linux Screen 命令使用
+# [Linux Screen 命令使用](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
 **一、背景**
 
 系统管理员经常需要SSH 或者telent 远程登录到Linux 服务器，经常运行一些需要很长时间才能完成的任务，比如系统备份、ftp 传输等等。通常情况下我们都是为每一个这样的任务开一个远程终端窗口，因为它们执行的时间太长了。必须等待它们执行完毕，在此期间不能关掉窗口或者断开连接，否则这个任务就会被杀掉，一切半途而废了。

@@ -48,20 +48,22 @@ extra:
       name: GitHub | kimikkorow
 
 # [Navigtion]
-nav:
-  - 博客: 
-    - blog/index.md
-    - Github Pages: 
-       - blog/使用GitHub Pages 搭建 MkDocs.md
-    - Docker:
-       - blog/Docker快速入土（2022.07.15）.md
-    - Linux:
-       - blog/Linux Tar 命令使用.md
-       - blog/Linux Screen 命令使用.md
-  - 关于:
-    - about/index.md
-    - 导航页: 
-       - about/link.md
+nav:  # 此处定义目录结构
+  - 博客:  # 顶部大分类
+    - blog/index.md  # 大分类主页，点击顶部分类后显示的页面
+    - Github Pages:  # 小分类（点击展开下级条目）
+       - blog/使用GitHub Pages 搭建 MkDocs.md  # 小分类条目
+    - Docker:  # 小分类（点击展开下级条目）
+       - blog/Docker快速入土（2022.07.15）.md  # 小分类条目
+    - Linux:  # 小分类（点击展开下级条目）
+       - blog/Linux Tar 命令使用.md  # 小分类条目
+       - blog/Linux Screen 命令使用.md  # 小分类条目
+    - 群晖:
+       - blog/DSM7.01编译记录（tinycore-redpill）.md
+  - 关于:  # 顶部大分类
+    - about/index.md  # 大分类主页，点击顶部分类后显示的页面
+    - 导航页:  # 小分类（点击展开下级条目）
+       - about/link.md  # 小分类条目
 
 # [Extensions]
 plugins:
