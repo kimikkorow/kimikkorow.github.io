@@ -26,7 +26,7 @@
 git config --global http.sslVerify false
 ```
 
-> curl在换源后仓库的rploader.sh文件中已经禁止ssl验证，可以跳过
+- curl在换源后仓库的rploader.sh文件中已经禁止ssl验证，可以跳过
 
 ##### PS：记得把需要用到的设备全部接上，虚拟机需要直通
 
@@ -61,13 +61,13 @@ PS：
 - 没有异常的话，会在redpill-load目录里找到loader.img文件，备份好loader.img文件后重启即可自动进入群晖引导
 - 以下为机型代号以及示范：
 
-> DS918+      apollolake
-> DS3615xs    bromolow
-> DS3617xs    broadwell
-> DS3622xs    broadwellnk
-> DS1621        v1000
-> DVA3221     denverton
-> DS920         geminilake
+- DS918+      apollolake
+- DS3615xs    bromolow
+- DS3617xs    broadwell
+- DS3622xs    broadwellnk
+- DS1621        v1000
+- DVA3221     denverton
+- DS920         geminilake
 
 ```text
 【DS918+】
