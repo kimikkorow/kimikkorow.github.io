@@ -53,6 +53,8 @@ nav:
     - blog/index.md
     - Github Pages: 
        - blog/使用GitHub Pages 搭建 MkDocs.md
+    - Docker:
+       - blog/Docker快速入土（2022.07.15）.md
   - 关于:
     - about/index.md
     - 导航页: 
