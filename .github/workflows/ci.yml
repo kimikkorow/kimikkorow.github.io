@@ -21,5 +21,5 @@ jobs: # 工作流的具体内容
       - name: delete old workflows
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          retain_days: 2
-          keep_minimum_runs: 4
+          retain_days: 1
+          keep_minimum_runs: 2
