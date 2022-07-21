@@ -4,7 +4,7 @@
 
 [Markdown 语法速查表 | Markdown 官方教程](https://markdown.com.cn/cheat-sheet.html)
 
-此文档采用markdown语法编写，你所看到的即使渲染后的结构，源码可以在GitHub仓库查看（链接待补充）
+此文档采用markdown语法编写，你所看到的即使渲染后的结构，源码可以在[GitHub仓库](https://raw.githubusercontent.com/kimikkorow/kimikkorow.github.io/main/docs/blog/MarkDown%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8C%97.md)查看
 
 ### 标题
 
@@ -103,12 +103,16 @@ Markdown 应用程序在处理单词或短语中间添加的下划线上并不�
 
 ```text
 加**粗示**范
+
 斜*体示*范
+
 加***粗斜体示***范
 ```
 
 效果：
 
 加**粗示**范
+
 斜*体示*范
+
 加***粗斜体示***范
