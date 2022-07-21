@@ -1,6 +1,6 @@
-# Docker快速入土（2022.07.15） 
+# Docker快速入土（2022.07.15）
 
-## 摘录整合以下教程：
+## 摘录整合以下教程
 
 [Docker 10分钟快速入门_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1s54y1n7Ev)
 
@@ -18,20 +18,20 @@
 
 ##### 卸载旧版本Docker
 
-```
+```bash
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
 ##### 安装稳定版Docker
 
-```
+```bash
  curl -fsSL https://get.docker.com -o get-docker.sh
  sudo sh get-docker.sh --mirror Aliyun
 ```
 
 ##### 安装预发行版Docker
 
-```
+```bash
 curl -fsSL https://test.docker.com -o test-docker.sh
 sudo sh test-docker.sh --mirror Aliyun
 ```
@@ -44,13 +44,13 @@ sudo sh test-docker.sh --mirror Aliyun
 
 卸载 Docker 引擎、CLI、Containerd 和 Docker Compose 包：
 
-```
+```bash
 sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 主机上的映像、容器、卷或自定义配置文件不会自动删除。删除所有映像、容器和卷：
 
-```
+```bash
 sudo rm -rf /var/lib/docker
 sudo rm -rf /var/lib/containerd
 ```
@@ -77,13 +77,8 @@ sudo rm -rf /var/lib/containerd
 
 - 下载并安装 [Linux 内核更新程序包](https://docs.microsoft.com/windows/wsl/wsl2-kernel)。
 
-  
-
   启动docker desktop
 
-  ![](assets/62d0fee747bbe.png)
-
-  
-
+  ![docker desktop](assets/62d0fee747bbe.png)
 
   未完待续...

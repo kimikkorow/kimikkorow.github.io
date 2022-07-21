@@ -1,10 +1,12 @@
-#### Linux tar（英文全拼：tape archive ）命令用于备份文件。
+# Linux tar（英文全拼：tape archive ）命令用于备份文件
 
 tar 是用来建立，还原备份文件的工具程序，它可以加入，解开备份文件内的文件。
-#### 语法
+
+## 语法
+
 ```tar [-ABcdgGhiklmMoOpPrRsStuUvwWxzZ][-b <区块数目>][-C <目的目录>][-f <备份文件>][-F <Script文件>][-K <文件>][-L <媒体容量>][-N <日期时间>][-T <范本文件>][-V <卷册名称>][-X <范本文件>][-<设备编号><存储密度>][--after-date=<日期时间>][--atime-preserve][--backuup=<备份方式>][--checkpoint][--concatenate][--confirmation][--delete][--exclude=<范本样式>][--force-local][--group=<群组名称>][--help][--ignore-failed-read][--new-volume-script=<Script文件>][--newer-mtime][--no-recursion][--null][--numeric-owner][--owner=<用户名称>][--posix][--erve][--preserve-order][--preserve-permissions][--record-size=<区块数目>][--recursive-unlink][--remove-files][--rsh-command=<执行指令>][--same-owner][--suffix=<备份字尾字符串>][--totals][--use-compress-program=<执行指令>][--version][--volno-file=<编号文件>][文件或目录...]```
 
-#### 参数
+### 参数
 
 - -A或--catenate 新增文件到已存在的备份文件。
 - -b<区块数目>或--blocking-factor=<区块数目> 设置每笔记录的区块数目，每个区块大小为12Bytes。
@@ -80,19 +82,23 @@ tar 是用来建立，还原备份文件的工具程序，它可以加入，解�
 
 实例
 压缩文件 非打包
-```
+
+```bash
 # touch a.c       
 # tar -czvf test.tar.gz a.c   //压缩 a.c文件为test.tar.gz
 a.c
 ```
+
 列出压缩文件内容
 
-```
+```bash
 # tar -tzvf test.tar.gz 
 -rw-r--r-- root/root     0 2010-05-24 16:51:59 a.c
 ```
+
 解压文件
-```
+
+```bash
 # tar -xzvf test.tar.gz 
 a.c
 ```
