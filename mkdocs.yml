@@ -11,13 +11,13 @@ theme:
   palette: 
     - scheme: default # 日间模式
       primary: indigo # 上方的
-      accent: orange # 链接等可交互元件的高亮色
+      accent: red # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
       primary: indigo
-      accent: orange
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -82,8 +82,8 @@ markdown_extensions:
   - toc:
       permalink: true # 固定标题位置为当前位置
   - pymdownx.highlight: # 代码块高亮
-      # linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
+      linenums: true # 显示行号
+      auto_title: true # 显示编程语言名称
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
 extra_javascript:
