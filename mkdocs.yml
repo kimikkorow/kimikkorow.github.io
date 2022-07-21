@@ -54,12 +54,12 @@ nav:  # 此处定义目录结构
     - Github Pages:  # 小分类（点击展开下级条目）
        - blog/使用GitHub Pages 搭建 MkDocs.md  # 小分类条目
     - Docker:  # 小分类（点击展开下级条目）
-       - blog/Docker快速入土（2022.07.15）.md  # 小分类条目
+       - blog/Docker快速入土.md  # 小分类条目
     - Linux:  # 小分类（点击展开下级条目）
        - blog/Linux Tar 命令使用.md  # 小分类条目
        - blog/Linux Screen 命令使用.md  # 小分类条目
     - 群晖:
-       - blog/DSM7.01编译记录（tinycore-redpill）.md
+       - blog/DSM7.01编译记录(tinycore-redpill).md
     - Office:
        - blog/Office Excel.md
     - MarkDown:
