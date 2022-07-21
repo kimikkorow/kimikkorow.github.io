@@ -55,6 +55,7 @@ git config --global http.sslVerify false
 #### 正式开始编译
 
 ```./rploader.sh build bromolow-7.0.1-42218```
+
 PS：
 
 - 如果自己知道SN、MAC、PID、VID、SATAMAP等可以直接这步，然后修改镜像
