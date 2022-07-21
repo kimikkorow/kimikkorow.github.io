@@ -1,8 +1,12 @@
-# DSM7.01编译记录（tinycore-redpill）
+# DSM7.01编译记录(tinycore-redpill)
 
-## 最后修改时间：2022年7月20日
+最后更新时间：2022年7月21日
 
-### 使用的项目：[pocopico/tinycore-redpill](https://github.com/pocopico/tinycore-redpill)
+## 参考教程
+
+### 使用的项目
+
+[pocopico/tinycore-redpill](https://github.com/pocopico/tinycore-redpill)
 
 换源后项目：[kimikkorow/tinycore-redpill](https://gitee.com/kimikkorow/tinycore-redpill)
 

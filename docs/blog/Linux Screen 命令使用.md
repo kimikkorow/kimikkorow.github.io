@@ -1,6 +1,10 @@
 # Linux Screen 命令使用
 
-## [Linux Screen 命令使用](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
+最后更新时间：2022年7月21日
+
+## 参考教程
+
+[Linux Screen 命令使用](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
 
 一、背景
 
