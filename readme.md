@@ -10,7 +10,7 @@
 
 [点击此处前往我的GitHub Pages主页](https://kimikkorow.github.io/)
 
-[点击此处前往我的Gitee Pages主页](https://kimikkorow.gitee.io/)
+[点击此处前往我的Gitee Pages主页](https://kimikkorow.gitee.io/kimikkorow.github.io/)
 
 [点击此处前往我的GitHub主页](https://github.com/kimikkorow)
 

@@ -27,6 +27,10 @@
 - [frantech](https://my.frantech.ca/)
 - [justhost](https://justhost.ru/)
 
+## 图书馆
+
+- [Z-library](https://zh.z-lib.org/)
+
 ## 私有地址
 
 [Nas-J1900(zerotier)](https://192.168.192.12:5001/)
