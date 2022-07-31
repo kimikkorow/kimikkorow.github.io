@@ -1,6 +1,6 @@
 # 使用GitHub Pages 搭建 MkDocs
 
-最后更新时间：2022年7月21日
+本页最后更新时间：2022年7月21日
 
 ## 感谢：[Yang-Xijie](https://github.com/Yang-Xijie/yang-xijie.github.io)
 

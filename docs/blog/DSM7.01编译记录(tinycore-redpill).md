@@ -1,6 +1,6 @@
 # DSM7.01编译记录(tinycore-redpill)
 
-最后更新时间：2022年7月21日
+本页最后更新时间：2022年7月31日
 
 ## 参考教程
 
@@ -37,10 +37,13 @@ git config --global http.sslVerify false
 #### 更新资源
 
 ```./rploader.sh update now```
+
 ![202206171245490.png](assets/62aca3362af7f.png)
 
 ```./rploader.sh fullupgrade now```
+
 ![202206171245418.png](assets/62aca336c8d21.png)
+
 这里输入Y回车
 
 #### 生成SN
