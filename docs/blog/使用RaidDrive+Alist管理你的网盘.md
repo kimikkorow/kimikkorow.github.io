@@ -2,11 +2,9 @@
 
 ## 获取程序
 
-前往官方releases按需要下载版本
-[Alist](https://github.com/alist-org/alist/releases)
+前往[Alist](https://github.com/alist-org/alist/releases)官方releases按需要下载版本
 
-使用旧版RaiDrive
-[RaiDrive](./files/RaiDrive_2020.11.30.exe)
+使用旧版[RaiDrive](./files/RaiDrive_2020.11.30.exe)
 
 ### 配置Alist
 
