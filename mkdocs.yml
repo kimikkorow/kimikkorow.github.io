@@ -71,6 +71,10 @@ nav:  # 此处定义目录结构
     - about/index.md  # 大分类主页，点击顶部分类后显示的页面
     - 导航页:  # 小分类（点击展开下级条目）
        - about/link.md  # 小分类条目
+  - 计划:  # 顶部大分类
+    - plan/index.md  # 大分类主页，点击顶部分类后显示的页面
+    - 计算机: 
+       - plan/计算机.md  
 
 # [Extensions]
 plugins:
