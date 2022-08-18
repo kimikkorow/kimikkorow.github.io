@@ -68,6 +68,8 @@ nav:  # 此处定义目录结构
     - Windows:
        - blog/使用RaidDrive+Alist管理你的网盘.md
        - blog/常用软件清单.md
+    - DNS:
+       - blog/ADGuardHome食用指北.md
   - 关于:  # 顶部大分类
     - about/index.md  # 大分类主页，点击顶部分类后显示的页面
     - 导航页:  # 小分类（点击展开下级条目）
