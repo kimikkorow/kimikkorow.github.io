@@ -78,6 +78,10 @@ nav:  # 此处定义目录结构
     - plan/index.md  # 大分类主页，点击顶部分类后显示的页面
     - 尚硅谷2022: 
        - plan/尚硅谷2022学习路线.md
+  - 笔记:
+    - note/index.md
+    - 尚硅谷2022:
+       - note/尚硅谷Git入门到精通全套教程（涵盖GitHubGitee码云GitLab）笔记.md
 
 # [Extensions]
 plugins:
