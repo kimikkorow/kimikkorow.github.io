@@ -76,8 +76,8 @@ nav:  # 此处定义目录结构
        - about/link.md  # 小分类条目
   - 计划:  # 顶部大分类
     - plan/index.md  # 大分类主页，点击顶部分类后显示的页面
-    - 计算机: 
-       - plan/计算机.md  
+    - 尚硅谷2022: 
+       - plan/尚硅谷2022学习路线.md
 
 # [Extensions]
 plugins:
