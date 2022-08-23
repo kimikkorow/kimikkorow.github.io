@@ -81,6 +81,6 @@ sudo rm -rf /var/lib/containerd
 
   启动docker desktop
 
-  ![docker desktop](assets/62d0fee747bbe.png)
+  ![docker desktop](./assets/Docker_Desktop.png)
 
   未完待续...

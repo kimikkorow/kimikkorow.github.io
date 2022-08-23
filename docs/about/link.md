@@ -36,3 +36,15 @@
 [Nas-J1900(zerotier)](https://192.168.192.12:5001/)
 
 [Nas(zerotier)](https://192.168.192.11:5001/)
+
+## 大佬的blog
+
+[hash070](https://www.hash070.top/)
+
+[ben](http://weinb.top/)
+
+[勿埋我心](https://www.qian.blue/)
+
+## 一些导航页
+
+[1ove](https://www.1ove.club/)

@@ -61,13 +61,17 @@
 
 #### 更新资源
 
-```./rploader.sh update now```
+```bash
+./rploader.sh update now
+```
 
-![202206171245490.png](assets/62aca3362af7f.png)
+![Tinycore-Redlill-2](./assets/Tinycore-Redlill-2.png)
 
-```./rploader.sh fullupgrade now```
+```bash
+./rploader.sh fullupgrade now
+```
 
-![202206171245418.png](assets/62aca336c8d21.png)
+![Tinycore-Redlill-1](./assets/Tinycore-Redlill-1.png)
 
 这里输入Y回车
 

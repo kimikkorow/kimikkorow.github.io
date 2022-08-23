@@ -59,6 +59,7 @@ nav:  # 此处定义目录结构
        - blog/Linux Tar 命令使用.md  # 小分类条目
        - blog/Linux Screen 命令使用.md  # 小分类条目
        - blog/各种换源指南.md
+       - blog/Linux安全加固.md
     - DSM(群晖):
        - blog/DSM7.01编译记录(tinycore-redpill).md
     - Office:
