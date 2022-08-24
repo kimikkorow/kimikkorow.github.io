@@ -69,6 +69,7 @@ nav:  # 此处定义目录结构
     - Windows:
        - blog/使用RaidDrive+Alist管理你的网盘.md
        - blog/常用软件清单.md
+       - blog/VScode配置开发环境.md
     - DNS:
        - blog/ADGuardHome食用指北.md
   - 关于:  # 顶部大分类
@@ -82,7 +83,7 @@ nav:  # 此处定义目录结构
   - 笔记:
     - note/index.md
     - 尚硅谷2022:
-       - note/尚硅谷Git入门到精通全套教程（涵盖GitHubGitee码云GitLab）笔记.md
+       - note/尚硅谷Git入门到精通全套教程(涵盖GitHubGitee码云GitLab)笔记.md
 
 # [Extensions]
 plugins:
