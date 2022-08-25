@@ -62,6 +62,8 @@ nav:  # 此处定义目录结构
        - blog/Linux安全加固.md
     - DSM(群晖):
        - blog/DSM7.01编译记录(tinycore-redpill).md
+       - blog/DSM安全加固.md
+       - blog/DSM邮件管理.md
     - Office:
        - blog/Office Excel.md
     - MarkDown:
