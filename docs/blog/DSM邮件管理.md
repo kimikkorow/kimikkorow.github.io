@@ -12,4 +12,4 @@
 
 ![image-20220825160241050](assets/image-20220825160241050.png)
 
-完成以上设置后，在 Synology MailPlus 中配置POP3和SMTP服务即可接收y
+完成以上设置后，在 Synology MailPlus 中配置POP3和SMTP服务即可接收邮件
