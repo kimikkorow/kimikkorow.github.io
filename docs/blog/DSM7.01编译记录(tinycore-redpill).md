@@ -39,8 +39,8 @@
 6. 更新资源，从Gitee仓库获取所需文件并替换旧的文件
 
 ```bash
-./rploader.sh update now
-./rploader.sh fullupgrade now
+sudo ./rploader.sh update now
+sudo ./rploader.sh fullupgrade now
 ```
 
 > PS：
@@ -62,13 +62,13 @@
 #### 更新资源
 
 ```bash
-./rploader.sh update now
+sudo ./rploader.sh update now
 ```
 
 ![Tinycore-Redlill-2](./assets/Tinycore-Redlill-2.png)
 
 ```bash
-./rploader.sh fullupgrade now
+sudo ./rploader.sh fullupgrade now
 ```
 
 ![Tinycore-Redlill-1](./assets/Tinycore-Redlill-1.png)
@@ -79,29 +79,29 @@
 
 ##### 生成SN
 
-```./rploader.sh serialgen DS3615xs```
+```sudo ./rploader.sh serialgen DS3615xs```
 后面询问是否写入配置文件的都可以输入Y然后回车
 
 ##### U盘引导需要额外设置PID、VID
 
-```./rploader.sh identifyusb now```
+```sudo ./rploader.sh identifyusb now```
 
 ##### 生成引导磁盘参数
 
-```./rploader.sh satamap now```
+```sudo ./rploader.sh satamap now```
 
 如果自己知道 SN、MAC、PID、VID、SATAMAP 等参数可以直接这步，手动修改配置文件或者后期修改镜像内grub文件
 
 #### 正式开始编译
 
-```./rploader.sh build bromolow-7.0.1-42218```
+```sudo ./rploader.sh build bromolow-7.0.1-42218```
 
 完成编译后，在redpill-load目录里找到loader.img文件，备份好loader.img文件后重启即可自动进入群晖引导
 
 编译命令的格式：
 
 ```bash
-./rploader.sh build 机型代号-DSM版本号
+sudo ./rploader.sh build 机型代号-DSM版本号
 ```
 
 以下为机型代号：
@@ -124,51 +124,90 @@
 
 ```text
 【DS918+】
-./rploader.sh update now
+sudo ./rploader.sh update now
 
-./rploader.sh fullupgrade now
+sudo ./rploader.sh fullupgrade now
 
-./rploader.sh clean now
+sudo ./rploader.sh clean now
 
-./rploader.sh serialgen DS918+
+sudo ./rploader.sh serialgen DS918+
 
-./rploader.sh identifyusb now
+sudo ./rploader.sh identifyusb now
 
-./rploader.sh satamap now
+sudo ./rploader.sh satamap now
 
-./rploader.sh build apollolake-7.0.1-42218
+sudo ./rploader.sh build apollolake-7.0.1-42218
 
 【DS3615xs】
-./rploader.sh update now
+sudo ./rploader.sh update now
 
-./rploader.sh fullupgrade now
+sudo ./rploader.sh fullupgrade now
 
-./rploader.sh clean now
+sudo ./rploader.sh clean now
 
-./rploader.sh serialgen DS3615xs
+sudo ./rploader.sh serialgen DS3615xs
 
-./rploader.sh identifyusb now
+sudo ./rploader.sh identifyusb now
 
-./rploader.sh satamap now
+sudo ./rploader.sh satamap now
 
-./rploader.sh build bromolow-7.0.1-42218
+sudo ./rploader.sh build bromolow-7.0.1-42218
 
 
 【DS3617xs】
-./rploader.sh update now
+sudo ./rploader.sh update now
 
-./rploader.sh fullupgrade now
+sudo ./rploader.sh fullupgrade now
 
-./rploader.sh clean now
+sudo ./rploader.sh clean now
 
-./rploader.sh serialgen DS3617xs
+sudo ./rploader.sh serialgen DS3617xs
 
-./rploader.sh identifyusb now
+sudo ./rploader.sh identifyusb now
 
-./rploader.sh satamap now
+sudo ./rploader.sh satamap now
 
-./rploader.sh build broadwell-7.0.1-42218
+sudo ./rploader.sh build broadwell-7.0.1-42218
 ```
+
+## 两步到胃的命令（1.1/1.2 二选一 根据镜像版本选择）
+
+1.1、使用 main分支 / tinycore-redpill.v0.8.0.0.img.gz镜像 编译
+
+更新资源，清理垃圾
+
+```bash
+sudo curl -k https://gitee.com/kimikkorow/tinycore-redpill/raw/main/rploader.sh -O && \
+sudo chmod 777 *.sh && \
+git config --global http.sslVerify false && \
+sudo ./rploader.sh update now && \
+sudo ./rploader.sh fullupgrade now && \
+sudo ./rploader.sh clean now
+```
+
+1.2、使用 develop分支 / tinycore-redpill.v0.9.0.2.img.gz镜像 编译
+
+更新资源，清理垃圾
+
+```bash
+sudo curl -k https://gitee.com/kimikkorow/tinycore-redpill/raw/develop/rploader.sh -O && \
+sudo chmod 777 *.sh && \
+git config --global http.sslVerify false && \
+sudo ./rploader.sh update now && \
+sudo ./rploader.sh fullupgrade now && \
+sudo ./rploader.sh clean now
+```
+
+2、使用以下命令设置配置文件并编译
+
+```bash
+sudo ./rploader.sh serialgen DS3615xs && \
+sudo ./rploader.sh identifyusb now && \
+sudo ./rploader.sh satamap now && \
+sudo ./rploader.sh build bromolow-7.0.1-42218
+```
+
+其他版本自己改命令实现
 
 个人不推荐使用7.1，7.1的解码验证比较复杂，且因为分区的改变导致无法降级，自行判断需求决定是否升级，在7.0.1安心养老也是不错的选择。
 
